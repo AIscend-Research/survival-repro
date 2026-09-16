@@ -2,6 +2,14 @@
 ================================================================================
 REPRODUCIBILITY CARD — VAECox (Bioinformatics 2020, Suppl. 1)
 ================================================================================
+NOTE: this card is a hybrid of two runs. PHASE 2 and ROBUSTNESS below were
+regenerated after the review fixes (paired stats, linear regularization path,
+robustness confound / VAECox-Random ablation, leak-free VAE pretraining) —
+see results/tcga/UPDATE_NOTES.md for that run's exact config (VAE pretrained
+for 100 epochs, not 500). Everything under PHASE 3 — EXTENSIONS below (and the
+VAE/HP-search config lines just under this note) still describes the earlier,
+pre-fix run and was not recomputed.
+
 Paper : Kim, Kim, Choe, Lee, Kang. "Improved survival analysis by learning
         shared genomic information from pan-cancer data."
         Bioinformatics 36(Suppl_1):i389-i398. DOI:10.1093/bioinformatics/btaa462
@@ -13,19 +21,33 @@ Genes (VAE dim) : 20530
 Device          : cuda (Tesla T4)
 Seeds           : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-VAE             : 20530->4096->128 (mu,sigma), Tanh, Adam
+VAE (PHASE 3, pre-fix run) : 20530->4096->128 (mu,sigma), Tanh, Adam
                   lr=0.001 wd=1e-05 epochs=500 batch=256
+VAE (PHASE 2/ROBUSTNESS, this update) : same architecture, epochs=100,
+                  pretraining pool excludes eval-cohort test patients
+                  (union over all 10 seeds) — CFG["PRETRAIN_EXCLUDE_TEST"]=True
 VAECox          : pretrained encoder FINE-TUNED + Coxnnet(128)  [paper's method]
-HP search       : reduced grid [(0.001, 1e-05), (0.001, 0.001), (0.0001, 1e-05)] per cancer
+HP search       : neural grid [(0.001, 1e-05), (0.001, 0.001), (0.0001, 1e-05)]
+                  per cancer; CoxLasso/CoxRidge additionally searched over a
+                  13-point penalty path (1e-05 .. 10.0) instead of sharing the
+                  neural grid
 Surv epochs     : 100
 
 --------------------------------------------------------------------------------
-PHASE 2 — REPRODUCTION
+PHASE 2 — REPRODUCTION (updated — see note above)
 --------------------------------------------------------------------------------
-Wins (this run) : VAECox 5, Coxnnet 3, CoxLasso 1, CoxMLP 1, CoxRidge 0
+Wins (this run) : VAECox 5, Coxnnet 2, CoxMLP 2, CoxRidge 1, CoxLasso 0
 Paper wins      : VAECox 7/10
-Mean C-index    : CoxLasso 0.643, CoxMLP 0.641, CoxRidge 0.638, Coxnnet 0.646, VAECox 0.648
-Best mean       : VAECox
+Mean C-index    : CoxLasso 0.632, CoxMLP 0.641, CoxRidge 0.634, Coxnnet 0.646, VAECox 0.646
+Best mean       : Coxnnet (0.6461 vs VAECox 0.6459 — a virtual tie; VAECox no
+                  longer has the best mean C-index once the linear baselines
+                  are properly tuned)
+Paired stats    : 8/40 (cancer, baseline) pairs significant at p<0.05
+                  (Wilcoxon signed-rank on per-seed differences): 6 favor
+                  VAECox (BLCA x2, LUAD x2, LIHC, STAD), 2 favor a baseline
+                  (HNSC vs CoxRidge, KIRC vs Coxnnet). See paired_stats.csv —
+                  most cancer/baseline pairs are NOT distinguishable from
+                  noise, but the ones that are don't uniformly favor VAECox.
 
 --------------------------------------------------------------------------------
 PHASE 3 — EXTENSIONS
@@ -35,7 +57,17 @@ Subgroup fairness   : largest gap 0.242 C-index (STAD/age_group, CoxRidge:
                       dominant axis (mean gap 0.099-0.100), then subtype
                       (0.063-0.068), sex (0.053-0.055), stage (0.026-0.036).
 Lightweight equity  : shrinking the VAE changes C-index by -0.003 on low-event cohorts vs +0.005 on high-event cohorts
-Robustness          : missing=50%: CoxRidge 0.604 (from 0.632), VAECox 0.630 (from 0.631); noise=sigma=2.0: CoxRidge 0.589 (from 0.632), VAECox 0.628 (from 0.631)
+Robustness (updated — see note above; now scores all 5 models + a
+                     VAECox-Random ablation, not just CoxRidge vs VAECox):
+                     missing=50%: CoxRidge 0.610 (from 0.628, -0.018),
+                     VAECox 0.632 (from 0.634, -0.002),
+                     VAECox-Random 0.633 (from 0.632, +0.001);
+                     noise=sigma=2.0: CoxRidge 0.590 (from 0.628, -0.038),
+                     VAECox 0.630 (from 0.634, -0.004),
+                     VAECox-Random 0.630 (from 0.632, -0.002).
+                     VAECox and VAECox-Random degrade almost identically —
+                     no measurable robustness benefit from pretraining once
+                     the bottleneck architecture itself is held constant.
 Risk stratification : 5/10 cohorts show significant high/low risk separation (log-rank p<0.05)
 CPU accessibility   : k=1000 genes, 1.08M-param VAE trains on CPU in 11.4s; C-index 0.626
 Interpretability    : permutation importance over 3 cohorts
