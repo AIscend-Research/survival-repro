@@ -307,15 +307,15 @@
       {
         "cancer": "BLCA",
         "model": "CoxLasso",
-        "mean_cindex": 0.6276,
-        "std_cindex": 0.0415,
+        "mean_cindex": 0.6105,
+        "std_cindex": 0.0422,
         "n_valid": 10
       },
       {
         "cancer": "BLCA",
         "model": "CoxRidge",
-        "mean_cindex": 0.6297,
-        "std_cindex": 0.0432,
+        "mean_cindex": 0.6119,
+        "std_cindex": 0.0423,
         "n_valid": 10
       },
       {
@@ -335,29 +335,29 @@
       {
         "cancer": "BLCA",
         "model": "VAECox",
-        "mean_cindex": 0.6547,
-        "std_cindex": 0.0451,
+        "mean_cindex": 0.6624,
+        "std_cindex": 0.0494,
         "n_valid": 10
       },
       {
         "cancer": "BRCA",
         "model": "CoxLasso",
-        "mean_cindex": 0.6998,
-        "std_cindex": 0.048,
+        "mean_cindex": 0.6731,
+        "std_cindex": 0.0676,
         "n_valid": 10
       },
       {
         "cancer": "BRCA",
         "model": "CoxRidge",
-        "mean_cindex": 0.6894,
-        "std_cindex": 0.0508,
+        "mean_cindex": 0.6797,
+        "std_cindex": 0.0705,
         "n_valid": 10
       },
       {
         "cancer": "BRCA",
         "model": "Coxnnet",
-        "mean_cindex": 0.7143,
-        "std_cindex": 0.0391,
+        "mean_cindex": 0.6988,
+        "std_cindex": 0.048,
         "n_valid": 10
       },
       {
@@ -370,57 +370,57 @@
       {
         "cancer": "BRCA",
         "model": "VAECox",
-        "mean_cindex": 0.6932,
-        "std_cindex": 0.0565,
+        "mean_cindex": 0.6711,
+        "std_cindex": 0.0626,
         "n_valid": 10
       },
       {
         "cancer": "HNSC",
         "model": "CoxLasso",
-        "mean_cindex": 0.639,
-        "std_cindex": 0.019,
-        "n_valid": 10
-      },
-      {
-        "cancer": "HNSC",
-        "model": "CoxRidge",
         "mean_cindex": 0.6228,
         "std_cindex": 0.0154,
         "n_valid": 10
       },
       {
         "cancer": "HNSC",
+        "model": "CoxRidge",
+        "mean_cindex": 0.6298,
+        "std_cindex": 0.0174,
+        "n_valid": 10
+      },
+      {
+        "cancer": "HNSC",
         "model": "Coxnnet",
-        "mean_cindex": 0.6084,
-        "std_cindex": 0.0376,
+        "mean_cindex": 0.6096,
+        "std_cindex": 0.0336,
         "n_valid": 10
       },
       {
         "cancer": "HNSC",
         "model": "CoxMLP",
-        "mean_cindex": 0.6048,
-        "std_cindex": 0.0402,
+        "mean_cindex": 0.6074,
+        "std_cindex": 0.0394,
         "n_valid": 10
       },
       {
         "cancer": "HNSC",
         "model": "VAECox",
-        "mean_cindex": 0.6143,
-        "std_cindex": 0.023,
+        "mean_cindex": 0.6125,
+        "std_cindex": 0.026,
         "n_valid": 10
       },
       {
         "cancer": "KIRC",
         "model": "CoxLasso",
-        "mean_cindex": 0.7316,
-        "std_cindex": 0.037,
+        "mean_cindex": 0.703,
+        "std_cindex": 0.0471,
         "n_valid": 10
       },
       {
         "cancer": "KIRC",
         "model": "CoxRidge",
-        "mean_cindex": 0.7274,
-        "std_cindex": 0.0406,
+        "mean_cindex": 0.7026,
+        "std_cindex": 0.0469,
         "n_valid": 10
       },
       {
@@ -440,92 +440,92 @@
       {
         "cancer": "KIRC",
         "model": "VAECox",
-        "mean_cindex": 0.7273,
-        "std_cindex": 0.0289,
+        "mean_cindex": 0.7219,
+        "std_cindex": 0.031,
         "n_valid": 10
       },
       {
         "cancer": "LGG",
         "model": "CoxLasso",
-        "mean_cindex": 0.8152,
-        "std_cindex": 0.0544,
-        "n_valid": 10
-      },
-      {
-        "cancer": "LGG",
-        "model": "CoxRidge",
         "mean_cindex": 0.8097,
         "std_cindex": 0.0611,
         "n_valid": 10
       },
       {
         "cancer": "LGG",
+        "model": "CoxRidge",
+        "mean_cindex": 0.8103,
+        "std_cindex": 0.0612,
+        "n_valid": 10
+      },
+      {
+        "cancer": "LGG",
         "model": "Coxnnet",
-        "mean_cindex": 0.7957,
-        "std_cindex": 0.0452,
+        "mean_cindex": 0.8131,
+        "std_cindex": 0.0392,
         "n_valid": 10
       },
       {
         "cancer": "LGG",
         "model": "CoxMLP",
-        "mean_cindex": 0.815,
-        "std_cindex": 0.0531,
+        "mean_cindex": 0.8161,
+        "std_cindex": 0.0538,
         "n_valid": 10
       },
       {
         "cancer": "LGG",
         "model": "VAECox",
-        "mean_cindex": 0.8216,
-        "std_cindex": 0.0429,
+        "mean_cindex": 0.8011,
+        "std_cindex": 0.0315,
         "n_valid": 10
       },
       {
         "cancer": "LIHC",
         "model": "CoxLasso",
-        "mean_cindex": 0.7034,
-        "std_cindex": 0.043,
-        "n_valid": 10
-      },
-      {
-        "cancer": "LIHC",
-        "model": "CoxRidge",
-        "mean_cindex": 0.6969,
+        "mean_cindex": 0.697,
         "std_cindex": 0.0529,
         "n_valid": 10
       },
       {
         "cancer": "LIHC",
+        "model": "CoxRidge",
+        "mean_cindex": 0.6967,
+        "std_cindex": 0.0527,
+        "n_valid": 10
+      },
+      {
+        "cancer": "LIHC",
         "model": "Coxnnet",
-        "mean_cindex": 0.7206,
-        "std_cindex": 0.0357,
+        "mean_cindex": 0.7252,
+        "std_cindex": 0.0366,
         "n_valid": 10
       },
       {
         "cancer": "LIHC",
         "model": "CoxMLP",
-        "mean_cindex": 0.688,
-        "std_cindex": 0.056,
+        "mean_cindex": 0.693,
+        "std_cindex": 0.0575,
         "n_valid": 10
       },
       {
         "cancer": "LIHC",
         "model": "VAECox",
-        "mean_cindex": 0.7267,
-        "std_cindex": 0.0361,
+        "mean_cindex": 0.7302,
+        "std_cindex": 0.0383,
         "n_valid": 10
       },
       {
         "cancer": "LUAD",
         "model": "CoxLasso",
-        "mean_cindex": 0.6078,
-        "std_cindex": 0.0314,
+        "mean_cindex": 0.6089,
+        "std_cindex": 0.0338,
         "n_valid": 10
       },
       {
         "cancer": "LUAD",
         "model": "CoxRidge",
-        "mean_cindex": 0.6079,
-        "std_cindex": 0.0326,
+        "mean_cindex": 0.6155,
+        "std_cindex": 0.0278,
         "n_valid": 10
       },
       {
@@ -538,139 +538,581 @@
       {
         "cancer": "LUAD",
         "model": "CoxMLP",
-        "mean_cindex": 0.643,
-        "std_cindex": 0.0494,
+        "mean_cindex": 0.6398,
+        "std_cindex": 0.0453,
         "n_valid": 10
       },
       {
         "cancer": "LUAD",
         "model": "VAECox",
-        "mean_cindex": 0.6436,
-        "std_cindex": 0.0357,
+        "mean_cindex": 0.6403,
+        "std_cindex": 0.0345,
         "n_valid": 10
       },
       {
         "cancer": "LUSC",
         "model": "CoxLasso",
-        "mean_cindex": 0.5009,
-        "std_cindex": 0.0351,
+        "mean_cindex": 0.5057,
+        "std_cindex": 0.0358,
         "n_valid": 10
       },
       {
         "cancer": "LUSC",
         "model": "CoxRidge",
-        "mean_cindex": 0.5026,
-        "std_cindex": 0.0301,
+        "mean_cindex": 0.5031,
+        "std_cindex": 0.0396,
         "n_valid": 10
       },
       {
         "cancer": "LUSC",
         "model": "Coxnnet",
-        "mean_cindex": 0.4756,
-        "std_cindex": 0.0263,
+        "mean_cindex": 0.4784,
+        "std_cindex": 0.0288,
         "n_valid": 10
       },
       {
         "cancer": "LUSC",
         "model": "CoxMLP",
-        "mean_cindex": 0.5099,
-        "std_cindex": 0.0284,
+        "mean_cindex": 0.5085,
+        "std_cindex": 0.0229,
         "n_valid": 10
       },
       {
         "cancer": "LUSC",
         "model": "VAECox",
-        "mean_cindex": 0.487,
-        "std_cindex": 0.024,
+        "mean_cindex": 0.4954,
+        "std_cindex": 0.0158,
         "n_valid": 10
       },
       {
         "cancer": "OV",
         "model": "CoxLasso",
-        "mean_cindex": 0.5897,
-        "std_cindex": 0.0314,
+        "mean_cindex": 0.5819,
+        "std_cindex": 0.0346,
         "n_valid": 10
       },
       {
         "cancer": "OV",
         "model": "CoxRidge",
-        "mean_cindex": 0.5803,
+        "mean_cindex": 0.5823,
         "std_cindex": 0.0354,
         "n_valid": 10
       },
       {
         "cancer": "OV",
         "model": "Coxnnet",
-        "mean_cindex": 0.5847,
-        "std_cindex": 0.033,
+        "mean_cindex": 0.576,
+        "std_cindex": 0.0482,
         "n_valid": 10
       },
       {
         "cancer": "OV",
         "model": "CoxMLP",
-        "mean_cindex": 0.5734,
-        "std_cindex": 0.0292,
+        "mean_cindex": 0.5751,
+        "std_cindex": 0.0358,
         "n_valid": 10
       },
       {
         "cancer": "OV",
         "model": "VAECox",
-        "mean_cindex": 0.5948,
-        "std_cindex": 0.0473,
+        "mean_cindex": 0.5864,
+        "std_cindex": 0.0478,
         "n_valid": 10
       },
       {
         "cancer": "STAD",
         "model": "CoxLasso",
-        "mean_cindex": 0.515,
-        "std_cindex": 0.0609,
+        "mean_cindex": 0.5097,
+        "std_cindex": 0.054,
         "n_valid": 10
       },
       {
         "cancer": "STAD",
         "model": "CoxRidge",
-        "mean_cindex": 0.5111,
-        "std_cindex": 0.0601,
+        "mean_cindex": 0.5124,
+        "std_cindex": 0.0548,
         "n_valid": 10
       },
       {
         "cancer": "STAD",
         "model": "Coxnnet",
-        "mean_cindex": 0.5296,
+        "mean_cindex": 0.5306,
         "std_cindex": 0.0795,
         "n_valid": 10
       },
       {
         "cancer": "STAD",
         "model": "CoxMLP",
-        "mean_cindex": 0.5158,
-        "std_cindex": 0.0604,
+        "mean_cindex": 0.5083,
+        "std_cindex": 0.055,
         "n_valid": 10
       },
       {
         "cancer": "STAD",
         "model": "VAECox",
-        "mean_cindex": 0.5158,
-        "std_cindex": 0.0694,
+        "mean_cindex": 0.5375,
+        "std_cindex": 0.0622,
         "n_valid": 10
       }
     ],
     "wins": {
-      "CoxLasso": 1,
-      "CoxRidge": 0,
-      "Coxnnet": 3,
-      "CoxMLP": 1,
+      "CoxLasso": 0,
+      "CoxMLP": 2,
+      "CoxRidge": 1,
+      "Coxnnet": 2,
       "VAECox": 5
     },
     "mean_cindex": {
-      "CoxLasso": 0.643,
-      "CoxMLP": 0.641,
-      "CoxRidge": 0.6378,
-      "Coxnnet": 0.6458,
-      "VAECox": 0.6479
+      "CoxLasso": 0.6322,
+      "CoxMLP": 0.6409,
+      "CoxRidge": 0.6344,
+      "Coxnnet": 0.6461,
+      "VAECox": 0.6459
     },
-    "best_mean_model": "VAECox",
-    "paper_wins": "VAECox 7/10"
+    "best_mean_model": "Coxnnet",
+    "paper_wins": "VAECox 7/10",
+    "paired_stats": [
+      {
+        "cancer": "BLCA",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0518,
+        "wins_vaecox": 10,
+        "losses": 0,
+        "ci95_lo": 0.0271,
+        "ci95_hi": 0.0813,
+        "wilcoxon_p": 0.002
+      },
+      {
+        "cancer": "BLCA",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0505,
+        "wins_vaecox": 10,
+        "losses": 0,
+        "ci95_lo": 0.0263,
+        "ci95_hi": 0.079,
+        "wilcoxon_p": 0.002
+      },
+      {
+        "cancer": "BLCA",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.0127,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.007,
+        "ci95_hi": 0.0338,
+        "wilcoxon_p": 0.4316
+      },
+      {
+        "cancer": "BLCA",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0116,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": -0.0031,
+        "ci95_hi": 0.0285,
+        "wilcoxon_p": 0.4258
+      },
+      {
+        "cancer": "BRCA",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": -0.0019,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.0438,
+        "ci95_hi": 0.0389,
+        "wilcoxon_p": 1.0
+      },
+      {
+        "cancer": "BRCA",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": -0.0086,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.0535,
+        "ci95_hi": 0.0336,
+        "wilcoxon_p": 0.8457
+      },
+      {
+        "cancer": "BRCA",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": -0.0277,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0591,
+        "ci95_hi": 0.0041,
+        "wilcoxon_p": 0.1602
+      },
+      {
+        "cancer": "BRCA",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": -0.0078,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0391,
+        "ci95_hi": 0.0221,
+        "wilcoxon_p": 0.6953
+      },
+      {
+        "cancer": "HNSC",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": -0.0103,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0249,
+        "ci95_hi": 0.0051,
+        "wilcoxon_p": 0.2754
+      },
+      {
+        "cancer": "HNSC",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": -0.0173,
+        "wins_vaecox": 1,
+        "losses": 9,
+        "ci95_lo": -0.0296,
+        "ci95_hi": -0.0034,
+        "wilcoxon_p": 0.0371
+      },
+      {
+        "cancer": "HNSC",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.0029,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0146,
+        "ci95_hi": 0.0242,
+        "wilcoxon_p": 1.0
+      },
+      {
+        "cancer": "HNSC",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0051,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.0132,
+        "ci95_hi": 0.0241,
+        "wilcoxon_p": 0.6953
+      },
+      {
+        "cancer": "KIRC",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0189,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": 0.0004,
+        "ci95_hi": 0.0402,
+        "wilcoxon_p": 0.1934
+      },
+      {
+        "cancer": "KIRC",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0193,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": 0.0007,
+        "ci95_hi": 0.0407,
+        "wilcoxon_p": 0.1934
+      },
+      {
+        "cancer": "KIRC",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": -0.0311,
+        "wins_vaecox": 1,
+        "losses": 9,
+        "ci95_lo": -0.0442,
+        "ci95_hi": -0.0172,
+        "wilcoxon_p": 0.0039
+      },
+      {
+        "cancer": "KIRC",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": -0.0089,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0214,
+        "ci95_hi": 0.0021,
+        "wilcoxon_p": 0.2324
+      },
+      {
+        "cancer": "LGG",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": -0.0086,
+        "wins_vaecox": 3,
+        "losses": 7,
+        "ci95_lo": -0.0395,
+        "ci95_hi": 0.0283,
+        "wilcoxon_p": 0.4922
+      },
+      {
+        "cancer": "LGG",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": -0.0091,
+        "wins_vaecox": 3,
+        "losses": 7,
+        "ci95_lo": -0.04,
+        "ci95_hi": 0.0279,
+        "wilcoxon_p": 0.4922
+      },
+      {
+        "cancer": "LGG",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": -0.012,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.0392,
+        "ci95_hi": 0.0132,
+        "wilcoxon_p": 0.625
+      },
+      {
+        "cancer": "LGG",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": -0.0149,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0455,
+        "ci95_hi": 0.0155,
+        "wilcoxon_p": 0.4316
+      },
+      {
+        "cancer": "LIHC",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0331,
+        "wins_vaecox": 8,
+        "losses": 2,
+        "ci95_lo": 0.0007,
+        "ci95_hi": 0.0633,
+        "wilcoxon_p": 0.1055
+      },
+      {
+        "cancer": "LIHC",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0335,
+        "wins_vaecox": 8,
+        "losses": 2,
+        "ci95_lo": 0.001,
+        "ci95_hi": 0.0633,
+        "wilcoxon_p": 0.1055
+      },
+      {
+        "cancer": "LIHC",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.005,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": -0.0099,
+        "ci95_hi": 0.0203,
+        "wilcoxon_p": 0.625
+      },
+      {
+        "cancer": "LIHC",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0372,
+        "wins_vaecox": 9,
+        "losses": 1,
+        "ci95_lo": 0.0182,
+        "ci95_hi": 0.0588,
+        "wilcoxon_p": 0.0059
+      },
+      {
+        "cancer": "LUAD",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0314,
+        "wins_vaecox": 9,
+        "losses": 1,
+        "ci95_lo": 0.0097,
+        "ci95_hi": 0.0525,
+        "wilcoxon_p": 0.0273
+      },
+      {
+        "cancer": "LUAD",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0248,
+        "wins_vaecox": 8,
+        "losses": 2,
+        "ci95_lo": 0.0075,
+        "ci95_hi": 0.0431,
+        "wilcoxon_p": 0.0371
+      },
+      {
+        "cancer": "LUAD",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.0135,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.001,
+        "ci95_hi": 0.028,
+        "wilcoxon_p": 0.2754
+      },
+      {
+        "cancer": "LUAD",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0005,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": -0.0261,
+        "ci95_hi": 0.0243,
+        "wilcoxon_p": 1.0
+      },
+      {
+        "cancer": "LUSC",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": -0.0103,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.036,
+        "ci95_hi": 0.0125,
+        "wilcoxon_p": 0.4922
+      },
+      {
+        "cancer": "LUSC",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": -0.0077,
+        "wins_vaecox": 4,
+        "losses": 6,
+        "ci95_lo": -0.0321,
+        "ci95_hi": 0.0187,
+        "wilcoxon_p": 0.625
+      },
+      {
+        "cancer": "LUSC",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.017,
+        "wins_vaecox": 9,
+        "losses": 1,
+        "ci95_lo": 0.0019,
+        "ci95_hi": 0.0317,
+        "wilcoxon_p": 0.0645
+      },
+      {
+        "cancer": "LUSC",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": -0.013,
+        "wins_vaecox": 2,
+        "losses": 8,
+        "ci95_lo": -0.0323,
+        "ci95_hi": 0.0062,
+        "wilcoxon_p": 0.2031
+      },
+      {
+        "cancer": "OV",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0045,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.0142,
+        "ci95_hi": 0.0228,
+        "wilcoxon_p": 0.625
+      },
+      {
+        "cancer": "OV",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0041,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": -0.015,
+        "ci95_hi": 0.0231,
+        "wilcoxon_p": 0.625
+      },
+      {
+        "cancer": "OV",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.0104,
+        "wins_vaecox": 7,
+        "losses": 3,
+        "ci95_lo": -0.0128,
+        "ci95_hi": 0.0332,
+        "wilcoxon_p": 0.375
+      },
+      {
+        "cancer": "OV",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0112,
+        "wins_vaecox": 7,
+        "losses": 3,
+        "ci95_lo": -0.0079,
+        "ci95_hi": 0.0285,
+        "wilcoxon_p": 0.2754
+      },
+      {
+        "cancer": "STAD",
+        "baseline": "CoxLasso",
+        "n_seeds": 10,
+        "mean_diff": 0.0278,
+        "wins_vaecox": 6,
+        "losses": 4,
+        "ci95_lo": -0.0006,
+        "ci95_hi": 0.058,
+        "wilcoxon_p": 0.2324
+      },
+      {
+        "cancer": "STAD",
+        "baseline": "CoxRidge",
+        "n_seeds": 10,
+        "mean_diff": 0.0251,
+        "wins_vaecox": 7,
+        "losses": 3,
+        "ci95_lo": 0.0042,
+        "ci95_hi": 0.0491,
+        "wilcoxon_p": 0.0645
+      },
+      {
+        "cancer": "STAD",
+        "baseline": "Coxnnet",
+        "n_seeds": 10,
+        "mean_diff": 0.0069,
+        "wins_vaecox": 5,
+        "losses": 5,
+        "ci95_lo": -0.017,
+        "ci95_hi": 0.0331,
+        "wilcoxon_p": 0.8457
+      },
+      {
+        "cancer": "STAD",
+        "baseline": "CoxMLP",
+        "n_seeds": 10,
+        "mean_diff": 0.0292,
+        "wins_vaecox": 9,
+        "losses": 1,
+        "ci95_lo": 0.0126,
+        "ci95_hi": 0.0449,
+        "wilcoxon_p": 0.0195
+      }
+    ]
   },
   "extensions": {
     "robustness": [
@@ -678,561 +1120,881 @@
         "cancer": "BLCA",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.6088,
-        "VAECox": 0.6139
+        "CoxLasso": 0.6085,
+        "CoxRidge": 0.6059,
+        "Coxnnet": 0.6044,
+        "CoxMLP": 0.6442,
+        "VAECox": 0.6186,
+        "VAECox-Random": 0.6125
       },
       {
         "cancer": "BLCA",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.6103,
-        "VAECox": 0.6143
+        "CoxLasso": 0.6105,
+        "CoxRidge": 0.608,
+        "Coxnnet": 0.6063,
+        "CoxMLP": 0.644,
+        "VAECox": 0.6189,
+        "VAECox-Random": 0.6115
       },
       {
         "cancer": "BLCA",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.6083,
-        "VAECox": 0.6168
+        "CoxLasso": 0.6077,
+        "CoxRidge": 0.6168,
+        "Coxnnet": 0.6096,
+        "CoxMLP": 0.644,
+        "VAECox": 0.6188,
+        "VAECox-Random": 0.6142
       },
       {
         "cancer": "BLCA",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.5892,
-        "VAECox": 0.6105
+        "CoxLasso": 0.5913,
+        "CoxRidge": 0.5719,
+        "Coxnnet": 0.6057,
+        "CoxMLP": 0.6368,
+        "VAECox": 0.6125,
+        "VAECox-Random": 0.6109
       },
       {
         "cancer": "BLCA",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.6088,
-        "VAECox": 0.6139
+        "CoxLasso": 0.6085,
+        "CoxRidge": 0.6059,
+        "Coxnnet": 0.6044,
+        "CoxMLP": 0.6442,
+        "VAECox": 0.6186,
+        "VAECox-Random": 0.6125
       },
       {
         "cancer": "BLCA",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.6062,
-        "VAECox": 0.6121
+        "CoxLasso": 0.6059,
+        "CoxRidge": 0.5927,
+        "Coxnnet": 0.6072,
+        "CoxMLP": 0.6429,
+        "VAECox": 0.618,
+        "VAECox-Random": 0.6112
       },
       {
         "cancer": "BLCA",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.5748,
-        "VAECox": 0.6127
+        "CoxLasso": 0.5785,
+        "CoxRidge": 0.6039,
+        "Coxnnet": 0.6053,
+        "CoxMLP": 0.6428,
+        "VAECox": 0.6208,
+        "VAECox-Random": 0.6106
       },
       {
         "cancer": "BLCA",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.5781,
-        "VAECox": 0.6158
+        "CoxLasso": 0.5805,
+        "CoxRidge": 0.5927,
+        "Coxnnet": 0.5991,
+        "CoxMLP": 0.6454,
+        "VAECox": 0.6229,
+        "VAECox-Random": 0.6073
       },
       {
         "cancer": "BRCA",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.6303,
-        "VAECox": 0.6921
+        "CoxLasso": 0.6351,
+        "CoxRidge": 0.648,
+        "Coxnnet": 0.6715,
+        "CoxMLP": 0.6287,
+        "VAECox": 0.6958,
+        "VAECox-Random": 0.6934
       },
       {
         "cancer": "BRCA",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.6294,
-        "VAECox": 0.6917
+        "CoxLasso": 0.6353,
+        "CoxRidge": 0.6468,
+        "Coxnnet": 0.67,
+        "CoxMLP": 0.625,
+        "VAECox": 0.6924,
+        "VAECox-Random": 0.6897
       },
       {
         "cancer": "BRCA",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.6364,
-        "VAECox": 0.697
+        "CoxLasso": 0.6417,
+        "CoxRidge": 0.6581,
+        "Coxnnet": 0.6701,
+        "CoxMLP": 0.6284,
+        "VAECox": 0.6993,
+        "VAECox-Random": 0.6932
       },
       {
         "cancer": "BRCA",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.6031,
-        "VAECox": 0.6841
+        "CoxLasso": 0.6099,
+        "CoxRidge": 0.6412,
+        "Coxnnet": 0.6548,
+        "CoxMLP": 0.6253,
+        "VAECox": 0.6863,
+        "VAECox-Random": 0.6846
       },
       {
         "cancer": "BRCA",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.6303,
-        "VAECox": 0.6921
+        "CoxLasso": 0.6351,
+        "CoxRidge": 0.648,
+        "Coxnnet": 0.6715,
+        "CoxMLP": 0.6287,
+        "VAECox": 0.6958,
+        "VAECox-Random": 0.6934
       },
       {
         "cancer": "BRCA",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.6203,
-        "VAECox": 0.693
+        "CoxLasso": 0.6235,
+        "CoxRidge": 0.6372,
+        "Coxnnet": 0.6706,
+        "CoxMLP": 0.6302,
+        "VAECox": 0.6938,
+        "VAECox-Random": 0.6902
       },
       {
         "cancer": "BRCA",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.6068,
-        "VAECox": 0.7032
+        "CoxLasso": 0.6097,
+        "CoxRidge": 0.6425,
+        "Coxnnet": 0.6821,
+        "CoxMLP": 0.6285,
+        "VAECox": 0.6928,
+        "VAECox-Random": 0.6993
       },
       {
         "cancer": "BRCA",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.5951,
-        "VAECox": 0.6833
+        "CoxLasso": 0.5973,
+        "CoxRidge": 0.6113,
+        "Coxnnet": 0.6675,
+        "CoxMLP": 0.6337,
+        "VAECox": 0.6827,
+        "VAECox-Random": 0.6781
       },
       {
         "cancer": "HNSC",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.6324,
-        "VAECox": 0.5811
+        "CoxLasso": 0.6381,
+        "CoxRidge": 0.6042,
+        "Coxnnet": 0.6082,
+        "CoxMLP": 0.6076,
+        "VAECox": 0.5805,
+        "VAECox-Random": 0.6018
       },
       {
         "cancer": "HNSC",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.6241,
-        "VAECox": 0.5846
+        "CoxLasso": 0.6321,
+        "CoxRidge": 0.6092,
+        "Coxnnet": 0.6077,
+        "CoxMLP": 0.6084,
+        "VAECox": 0.5806,
+        "VAECox-Random": 0.6031
       },
       {
         "cancer": "HNSC",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.6361,
-        "VAECox": 0.5816
+        "CoxLasso": 0.6432,
+        "CoxRidge": 0.6024,
+        "Coxnnet": 0.609,
+        "CoxMLP": 0.6079,
+        "VAECox": 0.5835,
+        "VAECox-Random": 0.6012
       },
       {
         "cancer": "HNSC",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.5828,
-        "VAECox": 0.5878
+        "CoxLasso": 0.5875,
+        "CoxRidge": 0.57,
+        "Coxnnet": 0.6073,
+        "CoxMLP": 0.6106,
+        "VAECox": 0.5797,
+        "VAECox-Random": 0.6052
       },
       {
         "cancer": "HNSC",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.6324,
-        "VAECox": 0.5811
+        "CoxLasso": 0.6381,
+        "CoxRidge": 0.6042,
+        "Coxnnet": 0.6082,
+        "CoxMLP": 0.6076,
+        "VAECox": 0.5805,
+        "VAECox-Random": 0.6018
       },
       {
         "cancer": "HNSC",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.6148,
-        "VAECox": 0.5767
+        "CoxLasso": 0.624,
+        "CoxRidge": 0.5855,
+        "Coxnnet": 0.6059,
+        "CoxMLP": 0.6001,
+        "VAECox": 0.5802,
+        "VAECox-Random": 0.6006
       },
       {
         "cancer": "HNSC",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.6033,
-        "VAECox": 0.5797
+        "CoxLasso": 0.6082,
+        "CoxRidge": 0.5899,
+        "Coxnnet": 0.6012,
+        "CoxMLP": 0.6019,
+        "VAECox": 0.5795,
+        "VAECox-Random": 0.5991
       },
       {
         "cancer": "HNSC",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.5936,
-        "VAECox": 0.5785
+        "CoxLasso": 0.5989,
+        "CoxRidge": 0.5712,
+        "Coxnnet": 0.5899,
+        "CoxMLP": 0.6055,
+        "VAECox": 0.5853,
+        "VAECox-Random": 0.5923
       },
       {
         "cancer": "KIRC",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.6996,
-        "VAECox": 0.7203
+        "CoxLasso": 0.7045,
+        "CoxRidge": 0.7206,
+        "Coxnnet": 0.7074,
+        "CoxMLP": 0.7211,
+        "VAECox": 0.7228,
+        "VAECox-Random": 0.7232
       },
       {
         "cancer": "KIRC",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.6923,
-        "VAECox": 0.7179
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "missing",
-        "level": "25%",
-        "CoxRidge": 0.6912,
-        "VAECox": 0.72
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "missing",
-        "level": "50%",
-        "CoxRidge": 0.6478,
-        "VAECox": 0.7169
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "noise",
-        "level": "sigma=0.0",
-        "CoxRidge": 0.6996,
-        "VAECox": 0.7203
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "noise",
-        "level": "sigma=0.5",
-        "CoxRidge": 0.6903,
-        "VAECox": 0.7198
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "noise",
-        "level": "sigma=1.0",
-        "CoxRidge": 0.6726,
-        "VAECox": 0.7195
-      },
-      {
-        "cancer": "KIRC",
-        "experiment": "noise",
-        "level": "sigma=2.0",
-        "CoxRidge": 0.6442,
-        "VAECox": 0.7187
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "missing",
-        "level": "0%",
-        "CoxRidge": 0.8249,
-        "VAECox": 0.8108
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "missing",
-        "level": "10%",
-        "CoxRidge": 0.8169,
-        "VAECox": 0.8099
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "missing",
-        "level": "25%",
-        "CoxRidge": 0.8274,
-        "VAECox": 0.8089
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "missing",
-        "level": "50%",
-        "CoxRidge": 0.7886,
-        "VAECox": 0.8069
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "noise",
-        "level": "sigma=0.0",
-        "CoxRidge": 0.8249,
-        "VAECox": 0.8108
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "noise",
-        "level": "sigma=0.5",
-        "CoxRidge": 0.8212,
-        "VAECox": 0.8103
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "noise",
-        "level": "sigma=1.0",
-        "CoxRidge": 0.8036,
-        "VAECox": 0.8057
-      },
-      {
-        "cancer": "LGG",
-        "experiment": "noise",
-        "level": "sigma=2.0",
-        "CoxRidge": 0.7137,
-        "VAECox": 0.8045
-      },
-      {
-        "cancer": "LIHC",
-        "experiment": "missing",
-        "level": "0%",
-        "CoxRidge": 0.7077,
-        "VAECox": 0.7127
-      },
-      {
-        "cancer": "LIHC",
-        "experiment": "missing",
-        "level": "10%",
+        "CoxLasso": 0.699,
         "CoxRidge": 0.7016,
-        "VAECox": 0.7086
+        "Coxnnet": 0.7038,
+        "CoxMLP": 0.7203,
+        "VAECox": 0.7226,
+        "VAECox-Random": 0.7226
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "missing",
+        "level": "25%",
+        "CoxLasso": 0.6936,
+        "CoxRidge": 0.6994,
+        "Coxnnet": 0.7086,
+        "CoxMLP": 0.7234,
+        "VAECox": 0.7215,
+        "VAECox-Random": 0.7234
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "missing",
+        "level": "50%",
+        "CoxLasso": 0.6524,
+        "CoxRidge": 0.6889,
+        "Coxnnet": 0.7089,
+        "CoxMLP": 0.7192,
+        "VAECox": 0.7172,
+        "VAECox-Random": 0.7265
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "noise",
+        "level": "sigma=0.0",
+        "CoxLasso": 0.7045,
+        "CoxRidge": 0.7206,
+        "Coxnnet": 0.7074,
+        "CoxMLP": 0.7211,
+        "VAECox": 0.7228,
+        "VAECox-Random": 0.7232
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "noise",
+        "level": "sigma=0.5",
+        "CoxLasso": 0.6965,
+        "CoxRidge": 0.7078,
+        "Coxnnet": 0.7053,
+        "CoxMLP": 0.7179,
+        "VAECox": 0.7225,
+        "VAECox-Random": 0.7211
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "noise",
+        "level": "sigma=1.0",
+        "CoxLasso": 0.6734,
+        "CoxRidge": 0.6828,
+        "Coxnnet": 0.7099,
+        "CoxMLP": 0.7137,
+        "VAECox": 0.722,
+        "VAECox-Random": 0.722
+      },
+      {
+        "cancer": "KIRC",
+        "experiment": "noise",
+        "level": "sigma=2.0",
+        "CoxLasso": 0.6479,
+        "CoxRidge": 0.5967,
+        "Coxnnet": 0.7069,
+        "CoxMLP": 0.7202,
+        "VAECox": 0.7156,
+        "VAECox-Random": 0.7242
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "missing",
+        "level": "0%",
+        "CoxLasso": 0.8266,
+        "CoxRidge": 0.824,
+        "Coxnnet": 0.8051,
+        "CoxMLP": 0.8157,
+        "VAECox": 0.8171,
+        "VAECox-Random": 0.8072
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "missing",
+        "level": "10%",
+        "CoxLasso": 0.8181,
+        "CoxRidge": 0.8178,
+        "Coxnnet": 0.807,
+        "CoxMLP": 0.8153,
+        "VAECox": 0.8139,
+        "VAECox-Random": 0.8078
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "missing",
+        "level": "25%",
+        "CoxLasso": 0.8266,
+        "CoxRidge": 0.81,
+        "Coxnnet": 0.8044,
+        "CoxMLP": 0.8137,
+        "VAECox": 0.8133,
+        "VAECox-Random": 0.805
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "missing",
+        "level": "50%",
+        "CoxLasso": 0.7929,
+        "CoxRidge": 0.8021,
+        "Coxnnet": 0.8083,
+        "CoxMLP": 0.8177,
+        "VAECox": 0.8187,
+        "VAECox-Random": 0.8124
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "noise",
+        "level": "sigma=0.0",
+        "CoxLasso": 0.8266,
+        "CoxRidge": 0.824,
+        "Coxnnet": 0.8051,
+        "CoxMLP": 0.8157,
+        "VAECox": 0.8171,
+        "VAECox-Random": 0.8072
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "noise",
+        "level": "sigma=0.5",
+        "CoxLasso": 0.8229,
+        "CoxRidge": 0.8175,
+        "Coxnnet": 0.8062,
+        "CoxMLP": 0.8167,
+        "VAECox": 0.8124,
+        "VAECox-Random": 0.8084
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "noise",
+        "level": "sigma=1.0",
+        "CoxLasso": 0.8068,
+        "CoxRidge": 0.8164,
+        "Coxnnet": 0.8024,
+        "CoxMLP": 0.8142,
+        "VAECox": 0.8119,
+        "VAECox-Random": 0.8061
+      },
+      {
+        "cancer": "LGG",
+        "experiment": "noise",
+        "level": "sigma=2.0",
+        "CoxLasso": 0.7118,
+        "CoxRidge": 0.7584,
+        "Coxnnet": 0.801,
+        "CoxMLP": 0.817,
+        "VAECox": 0.8055,
+        "VAECox-Random": 0.8193
+      },
+      {
+        "cancer": "LIHC",
+        "experiment": "missing",
+        "level": "0%",
+        "CoxLasso": 0.7089,
+        "CoxRidge": 0.6626,
+        "Coxnnet": 0.6957,
+        "CoxMLP": 0.6685,
+        "VAECox": 0.6934,
+        "VAECox-Random": 0.6769
+      },
+      {
+        "cancer": "LIHC",
+        "experiment": "missing",
+        "level": "10%",
+        "CoxLasso": 0.7035,
+        "CoxRidge": 0.6636,
+        "Coxnnet": 0.6935,
+        "CoxMLP": 0.6672,
+        "VAECox": 0.6913,
+        "VAECox-Random": 0.6763
       },
       {
         "cancer": "LIHC",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.6976,
-        "VAECox": 0.7041
+        "CoxLasso": 0.6955,
+        "CoxRidge": 0.6234,
+        "Coxnnet": 0.6991,
+        "CoxMLP": 0.666,
+        "VAECox": 0.6873,
+        "VAECox-Random": 0.6719
       },
       {
         "cancer": "LIHC",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.6298,
-        "VAECox": 0.7125
+        "CoxLasso": 0.6326,
+        "CoxRidge": 0.6475,
+        "Coxnnet": 0.7023,
+        "CoxMLP": 0.6657,
+        "VAECox": 0.6907,
+        "VAECox-Random": 0.6792
       },
       {
         "cancer": "LIHC",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.7077,
-        "VAECox": 0.7127
+        "CoxLasso": 0.7089,
+        "CoxRidge": 0.6626,
+        "Coxnnet": 0.6957,
+        "CoxMLP": 0.6685,
+        "VAECox": 0.6934,
+        "VAECox-Random": 0.6769
       },
       {
         "cancer": "LIHC",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.7015,
-        "VAECox": 0.7078
+        "CoxLasso": 0.7043,
+        "CoxRidge": 0.6442,
+        "Coxnnet": 0.6963,
+        "CoxMLP": 0.6666,
+        "VAECox": 0.6933,
+        "VAECox-Random": 0.6772
       },
       {
         "cancer": "LIHC",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.6371,
-        "VAECox": 0.7123
+        "CoxLasso": 0.6414,
+        "CoxRidge": 0.6229,
+        "Coxnnet": 0.6945,
+        "CoxMLP": 0.6674,
+        "VAECox": 0.6889,
+        "VAECox-Random": 0.6814
       },
       {
         "cancer": "LIHC",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.6424,
-        "VAECox": 0.7094
+        "CoxLasso": 0.6435,
+        "CoxRidge": 0.6418,
+        "Coxnnet": 0.695,
+        "CoxMLP": 0.6819,
+        "VAECox": 0.6971,
+        "VAECox-Random": 0.6847
       },
       {
         "cancer": "LUAD",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.6248,
-        "VAECox": 0.6177
+        "CoxLasso": 0.6218,
+        "CoxRidge": 0.6137,
+        "Coxnnet": 0.6156,
+        "CoxMLP": 0.6295,
+        "VAECox": 0.6026,
+        "VAECox-Random": 0.6121
       },
       {
         "cancer": "LUAD",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.6186,
-        "VAECox": 0.6159
+        "CoxLasso": 0.6175,
+        "CoxRidge": 0.6069,
+        "Coxnnet": 0.6133,
+        "CoxMLP": 0.6275,
+        "VAECox": 0.6017,
+        "VAECox-Random": 0.6115
       },
       {
         "cancer": "LUAD",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.6181,
-        "VAECox": 0.6162
+        "CoxLasso": 0.6163,
+        "CoxRidge": 0.6043,
+        "Coxnnet": 0.6116,
+        "CoxMLP": 0.6303,
+        "VAECox": 0.6005,
+        "VAECox-Random": 0.614
       },
       {
         "cancer": "LUAD",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.6176,
-        "VAECox": 0.6132
+        "CoxLasso": 0.6146,
+        "CoxRidge": 0.6091,
+        "Coxnnet": 0.6063,
+        "CoxMLP": 0.6193,
+        "VAECox": 0.6007,
+        "VAECox-Random": 0.6094
       },
       {
         "cancer": "LUAD",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.6248,
-        "VAECox": 0.6177
+        "CoxLasso": 0.6218,
+        "CoxRidge": 0.6137,
+        "Coxnnet": 0.6156,
+        "CoxMLP": 0.6295,
+        "VAECox": 0.6026,
+        "VAECox-Random": 0.6121
       },
       {
         "cancer": "LUAD",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.6268,
-        "VAECox": 0.6157
+        "CoxLasso": 0.6254,
+        "CoxRidge": 0.6182,
+        "Coxnnet": 0.6156,
+        "CoxMLP": 0.6254,
+        "VAECox": 0.6045,
+        "VAECox-Random": 0.6109
       },
       {
         "cancer": "LUAD",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.6114,
-        "VAECox": 0.614
+        "CoxLasso": 0.6112,
+        "CoxRidge": 0.5857,
+        "Coxnnet": 0.6076,
+        "CoxMLP": 0.6239,
+        "VAECox": 0.6017,
+        "VAECox-Random": 0.6122
       },
       {
         "cancer": "LUAD",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.5671,
-        "VAECox": 0.6017
+        "CoxLasso": 0.5658,
+        "CoxRidge": 0.5867,
+        "Coxnnet": 0.5964,
+        "CoxMLP": 0.6244,
+        "VAECox": 0.5946,
+        "VAECox-Random": 0.6075
       },
       {
         "cancer": "LUSC",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.5108,
-        "VAECox": 0.4834
+        "CoxLasso": 0.509,
+        "CoxRidge": 0.501,
+        "Coxnnet": 0.4628,
+        "CoxMLP": 0.4856,
+        "VAECox": 0.501,
+        "VAECox-Random": 0.4914
       },
       {
         "cancer": "LUSC",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.499,
-        "VAECox": 0.4854
+        "CoxLasso": 0.4972,
+        "CoxRidge": 0.5057,
+        "Coxnnet": 0.463,
+        "CoxMLP": 0.4853,
+        "VAECox": 0.5033,
+        "VAECox-Random": 0.4924
       },
       {
         "cancer": "LUSC",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.5059,
-        "VAECox": 0.4813
+        "CoxLasso": 0.5052,
+        "CoxRidge": 0.5008,
+        "Coxnnet": 0.4618,
+        "CoxMLP": 0.485,
+        "VAECox": 0.5022,
+        "VAECox-Random": 0.4926
       },
       {
         "cancer": "LUSC",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.4826,
-        "VAECox": 0.4809
+        "CoxLasso": 0.4796,
+        "CoxRidge": 0.4979,
+        "Coxnnet": 0.4562,
+        "CoxMLP": 0.481,
+        "VAECox": 0.4983,
+        "VAECox-Random": 0.4896
       },
       {
         "cancer": "LUSC",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.5108,
-        "VAECox": 0.4834
+        "CoxLasso": 0.509,
+        "CoxRidge": 0.501,
+        "Coxnnet": 0.4628,
+        "CoxMLP": 0.4856,
+        "VAECox": 0.501,
+        "VAECox-Random": 0.4914
       },
       {
         "cancer": "LUSC",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.4982,
-        "VAECox": 0.4829
+        "CoxLasso": 0.4975,
+        "CoxRidge": 0.5018,
+        "Coxnnet": 0.4655,
+        "CoxMLP": 0.4899,
+        "VAECox": 0.5022,
+        "VAECox-Random": 0.4918
       },
       {
         "cancer": "LUSC",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.5111,
-        "VAECox": 0.4823
+        "CoxLasso": 0.5109,
+        "CoxRidge": 0.4944,
+        "Coxnnet": 0.4596,
+        "CoxMLP": 0.489,
+        "VAECox": 0.4988,
+        "VAECox-Random": 0.4868
       },
       {
         "cancer": "LUSC",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.5049,
-        "VAECox": 0.5052
+        "CoxLasso": 0.5021,
+        "CoxRidge": 0.4908,
+        "Coxnnet": 0.4786,
+        "CoxMLP": 0.4884,
+        "VAECox": 0.5143,
+        "VAECox-Random": 0.5011
       },
       {
         "cancer": "OV",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.5774,
-        "VAECox": 0.5891
+        "CoxLasso": 0.5752,
+        "CoxRidge": 0.5954,
+        "Coxnnet": 0.582,
+        "CoxMLP": 0.5866,
+        "VAECox": 0.5928,
+        "VAECox-Random": 0.5776
       },
       {
         "cancer": "OV",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.576,
-        "VAECox": 0.5883
+        "CoxLasso": 0.5731,
+        "CoxRidge": 0.592,
+        "Coxnnet": 0.5832,
+        "CoxMLP": 0.587,
+        "VAECox": 0.5891,
+        "VAECox-Random": 0.5737
       },
       {
         "cancer": "OV",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.5642,
-        "VAECox": 0.5887
+        "CoxLasso": 0.56,
+        "CoxRidge": 0.5993,
+        "Coxnnet": 0.5874,
+        "CoxMLP": 0.5896,
+        "VAECox": 0.5901,
+        "VAECox-Random": 0.5807
       },
       {
         "cancer": "OV",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.5895,
-        "VAECox": 0.5945
+        "CoxLasso": 0.5877,
+        "CoxRidge": 0.5808,
+        "Coxnnet": 0.594,
+        "CoxMLP": 0.5936,
+        "VAECox": 0.5981,
+        "VAECox-Random": 0.5841
       },
       {
         "cancer": "OV",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.5774,
-        "VAECox": 0.5891
+        "CoxLasso": 0.5752,
+        "CoxRidge": 0.5954,
+        "Coxnnet": 0.582,
+        "CoxMLP": 0.5866,
+        "VAECox": 0.5928,
+        "VAECox-Random": 0.5776
       },
       {
         "cancer": "OV",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.571,
-        "VAECox": 0.5846
+        "CoxLasso": 0.5653,
+        "CoxRidge": 0.6011,
+        "Coxnnet": 0.5789,
+        "CoxMLP": 0.5859,
+        "VAECox": 0.5914,
+        "VAECox-Random": 0.5751
       },
       {
         "cancer": "OV",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.5559,
-        "VAECox": 0.5858
+        "CoxLasso": 0.5541,
+        "CoxRidge": 0.5812,
+        "Coxnnet": 0.5796,
+        "CoxMLP": 0.5926,
+        "VAECox": 0.5867,
+        "VAECox-Random": 0.5758
       },
       {
         "cancer": "OV",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.555,
-        "VAECox": 0.5762
+        "CoxLasso": 0.5462,
+        "CoxRidge": 0.5349,
+        "Coxnnet": 0.5641,
+        "CoxMLP": 0.5689,
+        "VAECox": 0.5747,
+        "VAECox-Random": 0.5633
       },
       {
         "cancer": "STAD",
         "experiment": "missing",
         "level": "0%",
-        "CoxRidge": 0.5005,
-        "VAECox": 0.4904
+        "CoxLasso": 0.5013,
+        "CoxRidge": 0.4999,
+        "Coxnnet": 0.5097,
+        "CoxMLP": 0.5051,
+        "VAECox": 0.5128,
+        "VAECox-Random": 0.5251
       },
       {
         "cancer": "STAD",
         "experiment": "missing",
         "level": "10%",
-        "CoxRidge": 0.5086,
-        "VAECox": 0.4914
+        "CoxLasso": 0.5094,
+        "CoxRidge": 0.5021,
+        "Coxnnet": 0.5095,
+        "CoxMLP": 0.5091,
+        "VAECox": 0.5124,
+        "VAECox-Random": 0.5262
       },
       {
         "cancer": "STAD",
         "experiment": "missing",
         "level": "25%",
-        "CoxRidge": 0.5071,
-        "VAECox": 0.4881
+        "CoxLasso": 0.5081,
+        "CoxRidge": 0.5043,
+        "Coxnnet": 0.5111,
+        "CoxMLP": 0.506,
+        "VAECox": 0.5134,
+        "VAECox-Random": 0.5271
       },
       {
         "cancer": "STAD",
         "experiment": "missing",
         "level": "50%",
-        "CoxRidge": 0.5062,
-        "VAECox": 0.4948
+        "CoxLasso": 0.5043,
+        "CoxRidge": 0.4864,
+        "Coxnnet": 0.5124,
+        "CoxMLP": 0.5075,
+        "VAECox": 0.5186,
+        "VAECox-Random": 0.529
       },
       {
         "cancer": "STAD",
         "experiment": "noise",
         "level": "sigma=0.0",
-        "CoxRidge": 0.5005,
-        "VAECox": 0.4904
+        "CoxLasso": 0.5013,
+        "CoxRidge": 0.4999,
+        "Coxnnet": 0.5097,
+        "CoxMLP": 0.5051,
+        "VAECox": 0.5128,
+        "VAECox-Random": 0.5251
       },
       {
         "cancer": "STAD",
         "experiment": "noise",
         "level": "sigma=0.5",
-        "CoxRidge": 0.48,
-        "VAECox": 0.4897
+        "CoxLasso": 0.4791,
+        "CoxRidge": 0.5034,
+        "Coxnnet": 0.5094,
+        "CoxMLP": 0.506,
+        "VAECox": 0.5108,
+        "VAECox-Random": 0.5271
       },
       {
         "cancer": "STAD",
         "experiment": "noise",
         "level": "sigma=1.0",
-        "CoxRidge": 0.5085,
-        "VAECox": 0.4873
+        "CoxLasso": 0.5068,
+        "CoxRidge": 0.4717,
+        "Coxnnet": 0.5128,
+        "CoxMLP": 0.5027,
+        "VAECox": 0.5109,
+        "VAECox-Random": 0.5283
       },
       {
         "cancer": "STAD",
         "experiment": "noise",
         "level": "sigma=2.0",
-        "CoxRidge": 0.494,
-        "VAECox": 0.482
+        "CoxLasso": 0.4954,
+        "CoxRidge": 0.5122,
+        "Coxnnet": 0.5113,
+        "CoxMLP": 0.4938,
+        "VAECox": 0.5098,
+        "VAECox-Random": 0.5248
       }
     ],
     "subgroup": [
@@ -5900,5 +6662,27 @@
         "significant": false
       }
     ]
+  },
+  "_update_note": "phase2 (table/wins/mean_cindex/best_mean_model/paired_stats) and extensions.robustness were regenerated after the review fixes (paired stats, linear regularization path, robustness confound / VAECox-Random ablation, leak-free VAE pretraining), using VAE pretrained for 100 epochs instead of 500. All other extensions fields predate the fixes and were not recomputed. See results/tcga/UPDATE_NOTES.md.",
+  "setup_phase2_robustness_update": {
+    "vae_epochs": 100,
+    "pretrain_exclude_test": true,
+    "linear_penalty_grid": [
+      1e-05,
+      3e-05,
+      0.0001,
+      0.0003,
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0
+    ],
+    "robustness_seeds": 5,
+    "note": "actual config for the phase2/paired_stats/robustness fields below; top-level 'setup' above still describes the earlier pre-fix run that produced the untouched extension fields (fairness, subgroup, lightweight, feature_subset, importance, kaplan_meier)."
   }
 }
