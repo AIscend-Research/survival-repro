@@ -1,0 +1,179 @@
+Loaded 20 toy cohorts, 20502 genes
+======================================================================
+CPU smoke-test of review fixes -- toy data, NOT paper-scale numbers
+======================================================================
+pancancer_matrix: excluded 250 eval-cohort test patients (union over 10 seeds) from VAE pretraining
+Pan-cancer VAE matrix: (350, 20502)  [test-leakage excluded]
+  VAE epoch    0  loss 1.2267
+  VAE epoch   50  loss 0.6924
+  VAE epoch  100  loss 0.5680
+  VAE epoch  150  loss 0.4978
+  VAE epoch  199  loss 0.4597
+VAE pretrained in 22.0s
+
+======================================================================
+PHASE 2 (with linear regularization path, per-seed saving)
+======================================================================
+
+-- BLCA --
+  CoxLasso : 0.556 +/- 0.303  (hp=1e-05, 9 seeds)
+  CoxRidge : 0.556 +/- 0.303  (hp=1e-05, 9 seeds)
+  Coxnnet  : 0.523 +/- 0.248  (hp=(0.001, 1e-05), 9 seeds)
+  CoxMLP   : 0.528 +/- 0.320  (hp=(0.001, 0.001), 9 seeds)
+  VAECox   : 0.555 +/- 0.302  (hp=(0.001, 1e-05), 9 seeds)
+
+-- BRCA --
+  CoxLasso : 1.000 +/- 0.000  (hp=1e-05, 2 seeds)
+  CoxRidge : 1.000 +/- 0.000  (hp=1e-05, 2 seeds)
+  Coxnnet  : 0.500 +/- 0.500  (hp=(0.001, 1e-05), 2 seeds)
+  CoxMLP   : 0.500 +/- 0.500  (hp=(0.001, 1e-05), 2 seeds)
+  VAECox   : 0.500 +/- 0.500  (hp=(0.001, 1e-05), 2 seeds)
+
+-- HNSC --
+  CoxLasso : 0.585 +/- 0.271  (hp=0.001, 9 seeds)
+  CoxRidge : 0.569 +/- 0.268  (hp=3e-05, 9 seeds)
+  Coxnnet  : 0.585 +/- 0.165  (hp=(0.001, 1e-05), 9 seeds)
+  CoxMLP   : 0.530 +/- 0.314  (hp=(0.001, 1e-05), 9 seeds)
+  VAECox   : 0.717 +/- 0.173  (hp=(0.001, 1e-05), 9 seeds)
+
+-- KIRC --
+  CoxLasso : 0.512 +/- 0.338  (hp=0.0001, 8 seeds)
+  CoxRidge : 0.497 +/- 0.347  (hp=1.0, 8 seeds)
+  Coxnnet  : 0.701 +/- 0.225  (hp=(0.0001, 1e-05), 8 seeds)
+  CoxMLP   : 0.530 +/- 0.280  (hp=(0.0001, 1e-05), 8 seeds)
+  VAECox   : 0.733 +/- 0.167  (hp=(0.0001, 1e-05), 8 seeds)
+
+-- LGG --
+  CoxLasso : 0.629 +/- 0.290  (hp=3e-05, 5 seeds)
+  CoxRidge : 0.629 +/- 0.290  (hp=0.0001, 5 seeds)
+  Coxnnet  : 0.780 +/- 0.136  (hp=(0.001, 0.001), 5 seeds)
+  CoxMLP   : 0.726 +/- 0.161  (hp=(0.0001, 1e-05), 5 seeds)
+  VAECox   : 0.743 +/- 0.224  (hp=(0.001, 1e-05), 5 seeds)
+
+-- LIHC --
+  CoxLasso : 0.599 +/- 0.440  (hp=1.0, 8 seeds)
+  CoxRidge : 0.508 +/- 0.354  (hp=10.0, 8 seeds)
+  Coxnnet  : 0.411 +/- 0.229  (hp=(0.001, 1e-05), 8 seeds)
+  CoxMLP   : 0.281 +/- 0.290  (hp=(0.001, 1e-05), 8 seeds)
+  VAECox   : 0.525 +/- 0.351  (hp=(0.001, 1e-05), 8 seeds)
+
+-- LUAD --
+  CoxLasso : 0.681 +/- 0.386  (hp=1e-05, 6 seeds)
+  CoxRidge : 0.681 +/- 0.386  (hp=3e-05, 6 seeds)
+  Coxnnet  : 0.389 +/- 0.342  (hp=(0.001, 1e-05), 6 seeds)
+  CoxMLP   : 0.319 +/- 0.386  (hp=(0.001, 1e-05), 6 seeds)
+  VAECox   : 0.458 +/- 0.466  (hp=(0.001, 1e-05), 6 seeds)
+
+-- LUSC --
+  CoxLasso : 0.603 +/- 0.316  (hp=1.0, 10 seeds)
+  CoxRidge : 0.563 +/- 0.326  (hp=1e-05, 10 seeds)
+  Coxnnet  : 0.522 +/- 0.413  (hp=(0.001, 1e-05), 10 seeds)
+  CoxMLP   : 0.572 +/- 0.357  (hp=(0.0001, 1e-05), 10 seeds)
+  VAECox   : 0.442 +/- 0.428  (hp=(0.001, 1e-05), 10 seeds)
+
+-- OV --
+  CoxLasso : 0.365 +/- 0.235  (hp=0.3, 10 seeds)
+  CoxRidge : 0.396 +/- 0.183  (hp=1.0, 10 seeds)
+  Coxnnet  : 0.475 +/- 0.183  (hp=(0.001, 0.001), 10 seeds)
+  CoxMLP   : 0.559 +/- 0.141  (hp=(0.001, 1e-05), 10 seeds)
+  VAECox   : 0.590 +/- 0.252  (hp=(0.001, 1e-05), 10 seeds)
+
+-- STAD --
+  CoxLasso : 0.849 +/- 0.193  (hp=3e-05, 9 seeds)
+  CoxRidge : 0.849 +/- 0.193  (hp=0.1, 9 seeds)
+  Coxnnet  : 0.658 +/- 0.318  (hp=(0.001, 1e-05), 9 seeds)
+  CoxMLP   : 0.630 +/- 0.319  (hp=(0.001, 1e-05), 9 seeds)
+  VAECox   : 0.843 +/- 0.186  (hp=(0.0001, 1e-05), 9 seeds)
+
+=== WINS ===
+  CoxLasso : 6/10
+  VAECox   : 3/10
+  Coxnnet  : 1/10
+  CoxRidge : 0/10
+  CoxMLP   : 0/10
+
+ cancer     BLCA  BRCA   HNSC   KIRC    LGG  ...   LUAD   LUSC     OV   STAD   Mean
+model                                       ...                                   
+CoxLasso  0.556   1.0  0.585  0.512  0.629  ...  0.681  0.603  0.365  0.850  0.638
+CoxMLP    0.528   0.5  0.530  0.530  0.726  ...  0.319  0.572  0.559  0.630  0.518
+CoxRidge  0.556   1.0  0.569  0.497  0.629  ...  0.681  0.563  0.396  0.850  0.625
+Coxnnet   0.523   0.5  0.585  0.701  0.780  ...  0.389  0.522  0.475  0.658  0.554
+VAECox    0.555   0.5  0.717  0.733  0.743  ...  0.458  0.442  0.590  0.843  0.611
+
+[5 rows x 11 columns]
+
+======================================================================
+PAIRED STATISTICS (fix for the marginal-std argument)
+======================================================================
+paired_stats: 36 (cancer, baseline) pairs; 4 significant at p<0.05 (Wilcoxon signed-rank), 24 with VAECox ahead on average
+cancer baseline  n_seeds  mean_diff  wins_vaecox  losses  ci95_lo  ci95_hi  wilcoxon_p
+  BLCA CoxLasso        9    -0.0004            3       6  -0.0744   0.0698      0.8335
+  BLCA CoxRidge        9    -0.0004            3       6  -0.0744   0.0698      0.8335
+  BLCA  Coxnnet        9     0.0327            2       7  -0.0377   0.1235      0.5930
+  BLCA   CoxMLP        9     0.0275            2       7  -0.1550   0.2952      0.3096
+  HNSC CoxLasso        9     0.1322            4       5  -0.0530   0.3132      0.2249
+  HNSC CoxRidge        9     0.1480            5       4  -0.0370   0.3240      0.1730
+  HNSC  Coxnnet        9     0.1324            5       4   0.0476   0.2209      0.0422
+  HNSC   CoxMLP        9     0.1874            5       4   0.0620   0.3399      0.0431
+  KIRC CoxLasso        8     0.2208            4       4  -0.0875   0.5250      0.2249
+  KIRC CoxRidge        8     0.2365            4       4  -0.0750   0.5562      0.1380
+  KIRC  Coxnnet        8     0.0323            3       5  -0.1177   0.2188      0.8335
+  KIRC   CoxMLP        8     0.2031            5       3   0.0781   0.3469      0.0422
+   LGG CoxLasso        5     0.1143            2       3  -0.1000   0.3789      0.4142
+   LGG CoxRidge        5     0.1143            2       3  -0.1000   0.3789      0.4142
+   LGG  Coxnnet        5    -0.0369            1       4  -0.1821   0.1714      0.7150
+   LGG   CoxMLP        5     0.0167            1       4  -0.1500   0.2000      0.6547
+  LIHC CoxLasso        8    -0.0740            3       5  -0.5833   0.4012      0.8438
+  LIHC CoxRidge        8     0.0167            3       5  -0.3750   0.4250      1.0000
+  LIHC  Coxnnet        8     0.1135            3       5  -0.0833   0.3333      0.3454
+  LIHC   CoxMLP        8     0.2438            5       3  -0.0438   0.5313      0.1501
+  LUAD CoxLasso        6    -0.2222            1       5  -0.6667   0.2222      0.2763
+  LUAD CoxRidge        6    -0.2222            1       5  -0.6667   0.2222      0.2763
+  LUAD  Coxnnet        6     0.0694            3       3  -0.3889   0.4722      0.7150
+  LUAD   CoxMLP        6     0.1389            3       3  -0.3340   0.6111      0.5807
+  LUSC CoxLasso       10    -0.1617            1       9  -0.3900   0.0817      0.3441
+  LUSC CoxRidge       10    -0.1217            1       9  -0.2933   0.0950      0.2325
+  LUSC  Coxnnet       10    -0.0800            0      10  -0.2400   0.0000      0.3173
+  LUSC   CoxMLP       10    -0.1300            1       9  -0.2833  -0.0033      0.0782
+    OV CoxLasso       10     0.2246            7       3   0.0455   0.4233      0.0578
+    OV CoxRidge       10     0.1937            7       3   0.0386   0.3667      0.0380
+    OV  Coxnnet       10     0.1151            7       3  -0.0116   0.2428      0.1602
+    OV   CoxMLP       10     0.0304            5       5  -0.0652   0.1349      0.5566
+  STAD CoxLasso        9    -0.0069            3       6  -0.2130   0.1905      0.8335
+  STAD CoxRidge        9    -0.0069            3       6  -0.2130   0.1905      0.8335
+  STAD  Coxnnet        9     0.1847            4       5  -0.0481   0.4095      0.2249
+  STAD   CoxMLP        9     0.2124            5       4  -0.0270   0.4278      0.1730
+
+======================================================================
+ROBUSTNESS SWEEP (all models + VAECox-Random ablation)
+======================================================================
+  BLCA done
+  BRCA done
+  HNSC done
+  KIRC done
+  LGG done
+  LIHC done
+  LUAD done
+  LUSC done
+  OV done
+  STAD done
+
+  missing: % change in C-index vs clean (mean over cohorts)
+       CoxLasso  CoxMLP  CoxRidge  Coxnnet  VAECox  VAECox-Random
+level                                                            
+0%          0.0     0.0       0.0      0.0     0.0            0.0
+10%        -0.0    10.8       5.2      2.5    -0.3           -2.5
+25%         0.8     7.0      -1.1      6.1     0.5           -4.2
+50%        -2.1     2.7      14.3      5.6    -2.8           -2.7
+
+  noise: % change in C-index vs clean (mean over cohorts)
+           CoxLasso  CoxMLP  CoxRidge  Coxnnet  VAECox  VAECox-Random
+level                                                                
+sigma=0.0       0.0     0.0       0.0      0.0     0.0            0.0
+sigma=0.5      -2.4    -0.6       0.6     -0.7     0.8            0.7
+sigma=1.0      -3.4    10.2      -1.4      0.8     1.2           -2.1
+sigma=2.0       4.1    -4.6       0.5      1.7    -0.9           -2.5
+  pretraining effect @ missing=50%: VAECox - VAECox-Random = -0.0305 C-index (mean over cohorts)
+  pretraining effect @ noise=sigma=2.0: VAECox - VAECox-Random = -0.0213 C-index (mean over cohorts)
+
+Done in 1102.5s. Outputs in results/cpu_smoketest/
